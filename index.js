@@ -1,5 +1,4 @@
 let images = [
-    'image3.jpeg',
     'image4',
     'image5.jpeg',
     'image6.jpg',
