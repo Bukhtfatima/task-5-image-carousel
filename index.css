@@ -1,0 +1,46 @@
+.imageCarousel{
+    width: 100vh;
+    height: 85vh;
+    position: relative;
+    padding: 5vh;
+    background-color: rgb(212, 222, 246);
+    left: 25%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(57, 36, 8);
+}
+.imgcontainer{
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+}
+.images{
+    width: 90vh;
+    height: 60vh;
+}
+.imageCarousel img{
+    width: 100%;
+    height: 100%;
+    animation: image 1.3s ;
+}
+@keyframes image{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.arrow{
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: 1000;
+    padding: 2vh;
+    background-color: grey;
+    color: white;
+}
+.arrow:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s ease;
+}
